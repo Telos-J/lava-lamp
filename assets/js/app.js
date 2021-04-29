@@ -1,13 +1,27 @@
-const blob1 = document.querySelector('#blob1')
-const blob2 = document.querySelector('#blob2')
-const blob3 = document.querySelector('#blob3')
+
+class Blob {
+    constructor(id, v) {
+        this.DOM = document.querySelector(id);
+        this.y = parseInt(this.DOM.getAttribute('cy'));
+        this.v = v;
+    }
+
+    move() {
+        if (this.y < 100 || this.y > 380) this.v *= -1;
+        this.y += this.v;
+        this.DOM.setAttribute('cy', this.y);
+    }
+
+}
+
+const blob1 = new Blob('#blob1', -1)
+const blob2 = new Blob('#blob2', 1)
+const blob3 = new Blob('#blob3', 1)
+
 
 window.setInterval(() => {
-    const cy1 = parseInt(blob1.getAttribute('cy'))
-    blob1.setAttribute('cy', cy1 - 1)
-    const cy2 = parseInt(blob3.getAttribute('cy'))
-    blob3.setAttribute('cy', cy2 + 1)
-    const cy3 = parseInt(blob2.getAttribute('cy'))
-    blob2.setAttribute('cy', cy3 + 1)
+    blob1.move();
+    blob2.move();
+    blob3.move();
 }, 100)
 
