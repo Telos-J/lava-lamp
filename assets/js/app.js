@@ -7,7 +7,7 @@ class Blob {
     }
 
     move() {
-        if (this.y < 100 || this.y > 380) this.v *= -1;
+        if (this.y < 50 || this.y > 450) this.v *= -1;
         this.y += this.v;
         this.DOM.setAttribute('cy', this.y);
     }
@@ -15,8 +15,8 @@ class Blob {
 }
 
 const blob1 = new Blob('#blob1', -1)
-const blob2 = new Blob('#blob2', 1)
-const blob3 = new Blob('#blob3', 1)
+const blob2 = new Blob('#blob2', 0.8)
+const blob3 = new Blob('#blob3', 1.6)
 
 
 window.setInterval(() => {
