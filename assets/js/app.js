@@ -7,7 +7,7 @@ class Blob {
     }
 
     move() {
-        if (this.y < 50 || this.y > 450) this.v *= -1;
+        if (this.y < 150 || this.y > 550) this.v *= -1;
         this.y += this.v;
         this.DOM.setAttribute('cy', this.y);
     }
