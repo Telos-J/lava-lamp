@@ -12,7 +12,18 @@ body {
 
 #lava-lamp {
     position: absolute;
-    right: 10%;
     top: 50%;
+    right: 10%;
     transform: translate(0, -50%);
+}
+
+#buttons {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+#buttons > * {
+    cursor: pointer;
 }
