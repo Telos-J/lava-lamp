@@ -7,8 +7,19 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #1B123E;
     overflow: hidden
+}
+
+body.blue {
+    background-color: #1B123E;
+}
+
+body.red {
+    background-color: #E0C7C1;
+}
+
+body.yellow {
+    background-color: #8E8320;
 }
 
 #lava-lamp {
@@ -16,6 +27,78 @@ body {
     top: 50%;
     right: 10%;
     transform: translate(20%, -50%);
+}
+
+.blue #lava-fill {
+    fill: #4B3252;
+}
+
+.blue #blob1, .blue #blob2, .blue #blob3, .blue #topBlob, .blue #bottomBlob {
+    fill: #7B799D;
+}
+
+.blue #glow {
+    fill: #5F78AA;
+}
+
+.blue #stand-fill, .blue #bottom-fill, .blue #lid-fill {
+    fill: #473754;
+}
+
+.blue #shade {
+    fill: #271E5F;
+}
+
+.blue #stand-outline, .blue #bottom-outline, .blue #lava-ouline, .blue #lid-outline {
+    stroke: #2C1141;
+}
+
+.red #lava-fill {
+    fill: #D5B1AE;
+}
+
+.red #blob1, .red #blob2, .red #blob3, .red #topBlob, .red #bottomBlob {
+    fill: #AA5D5D;
+}
+
+.red #glow {
+    fill: #CA8383;
+}
+
+.red #stand-fill, .red #bottom-fill, .red #lid-fill {
+    fill: #EBC8C8;
+}
+
+.red #shade {
+    fill: #271E5F;
+}
+
+.red #stand-outline, .red #bottom-outline, .red #lava-ouline, .red #lid-outline {
+    stroke: #84768F;
+}
+
+.yellow #lava-fill {
+    fill: #A59E34;
+}
+
+.yellow #blob1, .yellow #blob2, .yellow #blob3, .yellow #topBlob, .yellow #bottomBlob {
+    fill: #D3D4A0;
+}
+
+.yellow #glow {
+    fill: #B6B794;
+}
+
+.yellow #stand-fill, .yellow #bottom-fill, .yellow #lid-fill {
+    fill: #DADC64;
+}
+
+.yellow #shade {
+    fill: #5F5C1E;
+}
+
+.yellow #stand-outline, .yellow #bottom-outline, .yellow #lava-ouline, .yellow #lid-outline {
+    stroke: #ACAD81;
 }
 
 #buttons {
