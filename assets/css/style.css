@@ -11,6 +11,14 @@ body {
     overflow: hidden
 }
 
+body.green {
+    background-color: #123E14;
+}
+
+body.purple {
+    background-color: #3C174E;
+}
+
 #lava-lamp {
     position: absolute;
     top: 50%;
@@ -36,4 +44,45 @@ body {
     transform: translateY(2px);
     -webkit-tap-highlight-color: transparent;
 }
+
+.green #lid-outline, .green #lava-outline, .green #bottom-outline, .green #stand-outline {
+    stroke: #699868;
+}
+
+.green #shade {
+    fill: #3B5F1E;
+}
+
+.green #lid-fill, .green #bottom-fill, .green #stand-fill {
+    fill: #37543A;
+}
+
+.green #topBlob, .green #bottomBlob, .green #blob1, .green #blob2, .green #blob3, .green #glow {
+    fill: #7BAA5F;
+}
+
+.green #lava-fill {
+    fill: #1D451F;
+}
+
+.purple #lid-outline, .purple #lava-outline, .purple #bottom-outline, .purple #stand-outline {
+    stroke: #997FAE;
+}
+
+.purple #shade {
+    fill: #271E5F;
+}
+
+.purple #lid-fill, .purple #bottom-fill, .purple #stand-fill {
+    fill: #9B59D0;
+}
+
+.purple #topBlob, .purple #bottomBlob, .purple #blob1, .purple #blob2, .purple #blob3, .purple #glow {
+    fill: #845FAA;
+}
+
+.purple #lava-fill {
+    fill: #582B75;
+}
+
 
