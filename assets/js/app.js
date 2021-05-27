@@ -25,3 +25,10 @@ window.setInterval(() => {
     blob3.move();
 }, 100)
 
+const buttons = Array.from(document.querySelectorAll('#buttons > svg'))
+for (const button of buttons) {
+    button.addEventListener('click', (e) => {
+        document.body.removeAttribute('class')
+        document.body.classList.add(button.dataset.color)
+    })
+}

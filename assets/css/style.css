@@ -57,7 +57,7 @@ body.purple {
     fill: #271E5F;
 }
 
-.blue #stand-outline, .blue #bottom-outline, .blue #lava-ouline, .blue #lid-outline {
+.blue #stand-outline, .blue #bottom-outline, .blue #lava-outline, .blue #lid-outline {
     stroke: #2C1141;
 }
 
@@ -81,7 +81,7 @@ body.purple {
     fill: #271E5F;
 }
 
-.red #stand-outline, .red #bottom-outline, .red #lava-ouline, .red #lid-outline {
+.red #stand-outline, .red #bottom-outline, .red #lava-outline, .red #lid-outline {
     stroke: #84768F;
 }
 
@@ -105,7 +105,7 @@ body.purple {
     fill: #5F5C1E;
 }
 
-.yellow #stand-outline, .yellow #bottom-outline, .yellow #lava-ouline, .yellow #lid-outline {
+.yellow #stand-outline, .yellow #bottom-outline, .yellow #lava-outline, .yellow #lid-outline {
     stroke: #ACAD81;
 }
 
